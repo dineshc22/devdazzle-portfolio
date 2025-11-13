@@ -17,13 +17,6 @@ const contactInfo = [
     gradient: "from-blue-500 to-cyan-500",
   },
   {
-    icon: Globe,
-    label: "Website",
-    value: "www.iamdinesh.xyz",
-    href: "https://www.iamdinesh.xyz",
-    gradient: "from-cyan-500 to-pink-500",
-  },
-  {
     icon: MapPin,
     label: "Location",
     value: "Bengaluru, India",

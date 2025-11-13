@@ -21,21 +21,12 @@ export const Hero = () => {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-5xl mx-auto text-center space-y-8 animate-fade-in-up">
-          {/* Sparkle badge */}
-          <div className="inline-flex items-center space-x-2 px-6 py-3 bg-white/60 backdrop-blur-glass rounded-full border border-white/20 shadow-glass">
-            <Sparkles className="w-4 h-4 text-primary animate-pulse" />
-            <span className="text-sm font-medium text-foreground">Available for New Opportunities</span>
-          </div>
-
+        <br></br>
           {/* Main heading with gradient */}
           <div className="space-y-6">
             <h1 className="text-6xl md:text-8xl font-bold tracking-tight">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                DINESH
-              </span>
-              <br />
-              <span className="bg-gradient-secondary bg-clip-text text-transparent">
-                CHALLA
+                DINESH CHALLA
               </span>
             </h1>
             <div className="flex flex-col items-center gap-2">
@@ -57,8 +48,8 @@ export const Hero = () => {
               <div className="text-sm font-medium text-muted-foreground mt-2">System Uptime</div>
             </div>
             <div className="bg-white/60 backdrop-blur-glass rounded-2xl p-6 border border-white/20 shadow-glass hover:shadow-glow transition-all duration-300 hover:scale-105 animate-scale-in" style={{ animationDelay: "0.2s" }}>
-              <div className="text-5xl font-bold bg-gradient-accent bg-clip-text text-transparent">AWS</div>
-              <div className="text-sm font-medium text-muted-foreground mt-2">Cloud Expertise</div>
+              <div className="text-5xl font-bold bg-gradient-accent bg-clip-text text-transparent">Java</div>
+              <div className="text-sm font-medium text-muted-foreground mt-2">Backend Expertise</div>
             </div>
           </div>
 
@@ -90,15 +81,7 @@ export const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <button
-        onClick={scrollToAbout}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce cursor-pointer bg-transparent border-none"
-        aria-label="Scroll to about section"
-      >
-        <div className="bg-white/60 backdrop-blur-glass rounded-full p-3 border border-white/20 shadow-glass">
-          <ArrowDown className="w-6 h-6 text-primary" />
-        </div>
-      </button>
+      
     </section>
   );
 };
