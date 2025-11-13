@@ -50,18 +50,21 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        "tech-glow": "hsl(var(--tech-glow))",
-        "success-green": "hsl(var(--success-green))",
-        "metric-blue": "hsl(var(--metric-blue))",
+        glass: "hsl(var(--glass-bg))",
       },
       backgroundImage: {
         "gradient-primary": "var(--gradient-primary)",
-        "gradient-hero": "var(--gradient-hero)",
-        "gradient-card": "var(--gradient-card)",
+        "gradient-secondary": "var(--gradient-secondary)",
+        "gradient-accent": "var(--gradient-accent)",
+        "gradient-mesh": "var(--gradient-mesh)",
       },
       boxShadow: {
         glow: "var(--shadow-glow)",
         card: "var(--shadow-card)",
+        glass: "var(--shadow-glass)",
+      },
+      backdropBlur: {
+        glass: "16px",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -93,6 +96,14 @@ export default {
           "0%, 100%": { opacity: "1" },
           "50%": { opacity: "0.8" },
         },
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+        },
+        "scale-in": {
+          "0%": { transform: "scale(0.9)", opacity: "0" },
+          "100%": { transform: "scale(1)", opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -101,6 +112,8 @@ export default {
         "slide-in": "slide-in 0.5s ease-out",
         glow: "glow 2s ease-in-out infinite",
         pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
+        float: "float 6s ease-in-out infinite",
+        "scale-in": "scale-in 0.5s ease-out",
       },
     },
   },
