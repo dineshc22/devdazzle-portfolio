@@ -11,11 +11,12 @@ export const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-mesh">
-      {/* Floating gradient orbs */}
+      {/* Floating gradient orbs with slow motion */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float" />
-        <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary/30 rounded-full blur-3xl animate-float" style={{ animationDelay: "2s" }} />
-        <div className="absolute top-1/2 right-1/3 w-80 h-80 bg-accent/30 rounded-full blur-3xl animate-float" style={{ animationDelay: "4s" }} />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float-slow" />
+        <div className="absolute bottom-1/4 right-1/4 w-[500px] h-[500px] bg-secondary/30 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: "7s" }} />
+        <div className="absolute top-1/2 right-1/3 w-80 h-80 bg-accent/30 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: "14s" }} />
+        <div className="absolute top-3/4 left-1/2 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-float-slow" style={{ animationDelay: "10s" }} />
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
