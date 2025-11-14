@@ -25,9 +25,8 @@ export const About = () => {
                 <p className="text-foreground leading-relaxed text-lg">
                   Site Reliability Engineer with <span className="font-semibold text-primary">7 months of end-to-end experience</span> supporting 
                   high-availability enterprise and financial systems for global clients. Expert in observability, cloud infrastructure, 
-                  and automation, specializing in <span className="font-semibold text-primary">AWS deployments</span>, 
-                  <span className="font-semibold text-primary"> Python scripting</span>, and incident management using 
-                  ITIL and Agile best practices.
+                  and automation, specializing in <span className="font-semibold text-primary">Java, SpringBoot, Spring MVC & Spring Cloud </span>,<span className="font-semibold text-primary">AWS </span>, 
+                  <span className="font-semibold text-primary"> Python scripting</span>, and incident management.
                 </p>
                 <p className="text-foreground leading-relaxed text-lg">
                   Proven ability to optimize <span className="font-semibold text-secondary">SLO/SLI performance</span>, 

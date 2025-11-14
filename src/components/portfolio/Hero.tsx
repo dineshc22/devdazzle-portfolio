@@ -31,7 +31,7 @@ export const Hero = () => {
             </h1>
             <div className="flex flex-col items-center gap-2">
               <h2 className="text-2xl md:text-4xl font-bold text-foreground">
-                Site Reliability Engineer
+                Java Developer & Site Reliability Engineer
               </h2>
               <div className="h-1.5 w-32 bg-gradient-primary rounded-full" />
             </div>

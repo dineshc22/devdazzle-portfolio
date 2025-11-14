@@ -27,14 +27,15 @@ export const Experience = () => {
                     </p>
                   </div>
                   <div className="flex flex-col gap-3 lg:text-right">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-primary/10 rounded-xl border border-primary/20">
+                    {/* Employment period */}
+                  {  /*<div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-primary/10 rounded-xl border border-primary/20">
                       <Calendar className="w-4 h-4 text-primary" />
                       <span className="font-medium text-foreground">Apr 2022 – Nov 2022</span>
                     </div>
                     <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-secondary/10 rounded-xl border border-secondary/20">
                       <MapPin className="w-4 h-4 text-secondary" />
                       <span className="font-medium text-foreground">Enterprise Solutions</span>
-                    </div>
+                    </div>*/}
                   </div>
                 </div>
 
@@ -65,7 +66,7 @@ export const Experience = () => {
                   </div>
 
                   <div className="flex flex-wrap gap-3 pt-6">
-                    {["AWS", "Datadog", "Grafana", "Python", "ITIL", "SLO/SLI", "Automation"].map((tech) => (
+                    {["AWS", "Datadog", "Grafana", "Python", "Java","SpringBoot", "Spring Devtools", "Spring MVC","Spring Data JPA","Spring Cloud", "SLO/SLI", "Automation"].map((tech) => (
                       <span
                         key={tech}
                         className="px-4 py-2 bg-gradient-to-r from-purple-500 to-blue-500 text-white rounded-xl font-medium shadow-md hover:shadow-lg hover:scale-105 transition-all"

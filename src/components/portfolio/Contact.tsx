@@ -40,7 +40,7 @@ export const Contact = () => {
             </h2>
             <div className="w-24 h-1.5 bg-gradient-accent mx-auto rounded-full" />
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-              Looking for a dedicated Site Reliability Engineer? Let's discuss how I can contribute 
+              Looking for a dedicated Java Developer & Site Reliability Engineer? Let's discuss how I can contribute 
               to your team's success.
             </p>
           </div>
@@ -85,7 +85,7 @@ export const Contact = () => {
                   <h3 className="text-3xl font-bold text-foreground">Let's Connect</h3>
                   <p className="text-muted-foreground leading-relaxed text-lg">
                     I'm currently open to new opportunities and would love to discuss how my 
-                    expertise in AWS, monitoring, and automation can benefit your organization.
+                    expertise in Java, AWS, monitoring, and automation can benefit your organization.
                   </p>
                 </div>
 
@@ -137,7 +137,7 @@ export const Contact = () => {
           {/* Footer */}
           <div className="text-center pt-8 border-t border-white/40">
             <p className="text-muted-foreground">
-              © 2025 Dinesh Challa. Built with React, TypeScript, and Tailwind CSS.
+              © 2025 Dinesh Challa. All rights reserved.
             </p>
           </div>
         </div>
